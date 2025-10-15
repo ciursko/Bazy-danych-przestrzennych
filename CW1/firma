@@ -1,0 +1,257 @@
+create table pracownicy1
+(
+    id_pracownika integer generated always as identity
+        constraint pracownicy1_primaryKey
+            primary key,
+    imie          varchar(255),
+    nazwisko      varchar(255),
+    adres         varchar(255),
+    telefon       varchar(255)
+);
+
+alter table pracownicy1
+    owner to postgres;
+
+
+
+create table godziny
+(
+    id_godziny    integer not null
+        constraint godziny_primaryKey
+            primary key,
+    id_pracownika integer
+        constraint id_pracownika
+            references pracownicy1,
+    liczba_godzin integer,
+    data          date
+);
+
+alter table godziny
+    owner to postgres;
+
+
+
+create table pensja
+(
+    id_pensji  integer not null
+        constraint id_pensji
+            primary key,
+    stanowisko varchar,
+    kwota      double precision
+);
+
+alter table pensja
+    owner to postgres;
+
+
+
+create table premia
+(
+    id_premii integer not null
+        constraint premia_primaryKey
+            primary key,
+    rodzaj    varchar,
+    kwota     double precision
+);
+
+alter table premia
+    owner to postgres;
+
+
+
+create table wynagrodzenie
+(
+    id_wynagrodzenia integer not null
+        constraint wynagrodzenie_primaryKey
+            primary key,
+    data         date,
+    id_pracownika    integer
+        constraint id_pracownika
+            references pracownicy1,
+    id_godziny       integer
+        constraint id_godziny
+            references godziny,
+    id_pensji        integer
+        constraint id_pensji
+            references pensja,
+    id_premii        integer
+        constraint id_premii
+            references premia
+);
+
+alter table wynagrodzenie
+    owner to postgres;
+
+INSERT INTO pracownicy1 (imie, nazwisko, adres, telefon) VALUES
+('Jan', 'Kowalski', 'Warszawa, ul. Lipowa 12', '501123001'),
+('Anna', 'Nowak', 'Kraków, ul. Długa 8', '502123002'),
+('Piotr', 'Wiśniewski', 'Łódź, ul. Polna 4', '503123003'),
+('Joanna', 'Lewandowska', 'Gdańsk, ul. Mickiewicza 5', '504123004'),
+('Marek', 'Wójcik', 'Poznań, ul. Ogrodowa 10', '505123005'),
+('Julia', 'Kamińska', 'Szczecin, ul. Kwiatowa 7', '506123006'),
+('Paweł', 'Zieliński', 'Katowice, ul. Słoneczna 3', '507123007'),
+('Karolina', 'Szymańska', 'Lublin, ul. Młyńska 9', '508123008'),
+('Jakub', 'Kaczmarek', 'Rzeszów, ul. Spacerowa 11', '509123009'),
+('Alicja', 'Mazur', 'Bydgoszcz, ul. Krótka 6', '510123010');
+
+
+INSERT INTO pensja (id_pensji, stanowisko, kwota) VALUES
+(1, 'Kierownik', 3500),
+(2, 'Specjalista', 2800),
+(3, 'Asystent', 2100),
+(4, 'Magazynier', 1900),
+(5, 'Księgowy', 3000),
+(6, 'Sprzedawca', 2500),
+(7, 'Sekretarka', 2300),
+(8, 'Informatyk', 4000),
+(9, 'Technik', 2700),
+(10, 'Staży stażysta', 1500);
+
+
+INSERT INTO premia (id_premii, rodzaj, kwota) VALUES
+(1, 'Roczna', 1200),
+(2, 'Uznaniowa', 800),
+(3, 'Świąteczna', 500),
+(4, 'Brak', 0),
+(5, 'Za nadgodziny', 400),
+(6, 'Frekwencyjna', 300),
+(7, 'Specjalna', 1000),
+(8, 'Brak', 0),
+(9, 'Brak', 0),
+(10, 'Roczna', 1200);
+
+
+INSERT INTO godziny (id_godziny, id_pracownika, liczba_godzin, data) VALUES
+(1, 1, 162, '2025-09-30'),
+(2, 2, 155, '2025-09-30'),
+(3, 3, 170, '2025-09-30'),
+(4, 4, 160, '2025-09-30'),
+(5, 5, 158, '2025-09-30'),
+(6, 6, 165, '2025-09-30'),
+(7, 7, 175, '2025-09-30'),
+(8, 8, 140, '2025-09-30'),
+(9, 9, 180, '2025-09-30'),
+(10, 10, 150, '2025-09-30');
+
+
+INSERT INTO wynagrodzenie (id_wynagrodzenia, data, id_pracownika, id_godziny, id_pensji, id_premii) VALUES
+(1, '2025-09-30', 1, 1, 1, 1),
+(2, '2025-09-30', 2, 2, 2, 2),
+(3, '2025-09-30', 3, 3, 3, 3),
+(4, '2025-09-30', 4, 4, 4, 4),
+(5, '2025-09-30', 5, 5, 5, 5),
+(6, '2025-09-30', 6, 6, 6, 6),
+(7, '2025-09-30', 7, 7, 7, 7),
+(8, '2025-09-30', 8, 8, 8, 8),
+(9, '2025-09-30', 9, 9, 9, 9),
+(10, '2025-09-30', 10, 10, 10, 10);
+
+
+SELECT * FROM pracownicy1;
+SELECT * FROM pensja;
+SELECT * FROM premia;
+SELECT * FROM godziny;
+SELECT * FROM wynagrodzenie;
+
+
+/* A */
+SELECT id_pracownika, nazwisko
+FROM pracownicy1;
+
+/* B */
+SELECT p.id_pracownika, pe.kwota AS pensja
+FROM wynagrodzenie w
+JOIN pracownicy1 p ON w.id_pracownika = p.id_pracownika
+JOIN pensja pe ON w.id_pensji = pe.id_pensji
+WHERE pe.kwota > 1000;
+
+/* C */
+SELECT p.id_pracownika, pe.kwota AS pensja
+FROM wynagrodzenie w
+JOIN pracownicy1 p ON w.id_pracownika = p.id_pracownika
+JOIN pensja pe ON w.id_pensji = pe.id_pensji
+LEFT JOIN premia pr ON w.id_premii = pr.id_premii
+WHERE pr.id_premii IS NULL
+  AND pe.kwota > 2000;
+
+/* D */
+SELECT *
+FROM pracownicy1
+WHERE imie LIKE 'J%';
+
+/* E */
+SELECT *
+FROM pracownicy1
+WHERE nazwisko LIKE '%n%'
+  AND imie LIKE '%a';
+
+/* F */
+SELECT p.imie, p.nazwisko, (g.liczba_godzin - 160) AS nadgodziny
+FROM pracownicy1 p
+JOIN godziny g ON p.id_pracownika = g.id_pracownika
+WHERE g.liczba_godzin > 160;
+
+/* G */
+SELECT p.imie, p.nazwisko, pe.kwota AS pensja
+FROM pracownicy1 p
+JOIN wynagrodzenie w ON p.id_pracownika = w.id_pracownika
+JOIN pensja pe ON w.id_pensji = pe.id_pensji
+WHERE pe.kwota>1500 AND pe.kwota<3000;
+
+/* H */
+SELECT p.imie, p.nazwisko
+FROM pracownicy1 p
+JOIN wynagrodzenie w ON p.id_pracownika = w.id_pracownika
+JOIN godziny g ON w.id_godziny = g.id_godziny
+LEFT JOIN premia pr ON w.id_premii = pr.id_premii
+WHERE g.liczba_godzin > 160
+  AND pr.id_premii IS NULL;
+
+/* I */
+SELECT p.imie, p.nazwisko, pe.kwota AS pensja
+FROM pracownicy1 p
+JOIN wynagrodzenie w ON p.id_pracownika = w.id_pracownika
+JOIN pensja pe ON w.id_pensji = pe.id_pensji
+ORDER BY pe.kwota;
+
+/* J */
+SELECT p.imie, p.nazwisko, pe.kwota AS pensja, pr.kwota AS premia
+FROM pracownicy1 p
+JOIN wynagrodzenie w ON p.id_pracownika = w.id_pracownika
+JOIN pensja pe ON w.id_pensji = pe.id_pensji
+LEFT JOIN premia pr ON w.id_premii = pr.id_premii
+ORDER BY pe.kwota DESC, pr.kwota DESC;
+
+/* K */
+SELECT pe.stanowisko, COUNT(p.id_pracownika) AS liczba_pracownikow
+FROM wynagrodzenie w
+JOIN pracownicy1 p ON w.id_pracownika = p.id_pracownika
+JOIN pensja pe ON w.id_pensji = pe.id_pensji
+GROUP BY pe.stanowisko;
+
+/* L */
+SELECT pe.stanowisko, AVG(pe.kwota) AS srednia_placa, MIN(pe.kwota) AS minimalna_placa, MAX(pe.kwota) AS maksymalna_placa
+FROM pensja pe
+WHERE pe.stanowisko = 'Kierownik'
+GROUP BY pe.stanowisko;
+
+/* M */
+SELECT SUM(pe.kwota + COALESCE(pr.kwota, 0)) AS suma_wynagrodzen
+FROM wynagrodzenie w
+JOIN pensja pe ON w.id_pensji = pe.id_pensji
+LEFT JOIN premia pr ON w.id_premii = pr.id_premii;
+
+/* F */
+SELECT pe.stanowisko, SUM(pe.kwota + COALESCE(pr.kwota, 0)) AS suma_wynagrodzen
+FROM wynagrodzenie w
+JOIN pensja pe ON w.id_pensji = pe.id_pensji
+LEFT JOIN premia pr ON w.id_premii = pr.id_premii
+GROUP BY pe.stanowisko;
+
+/* G */
+SELECT pe.stanowisko, COUNT(pr.id_premii) AS liczba_przyznanych_premii
+FROM wynagrodzenie w
+JOIN pensja pe ON w.id_pensji = pe.id_pensji
+LEFT JOIN premia pr ON w.id_premii = pr.id_premii
+WHERE pr.kwota > 0
+GROUP BY pe.stanowisko;
