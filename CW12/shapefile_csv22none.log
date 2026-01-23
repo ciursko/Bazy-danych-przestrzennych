@@ -1,0 +1,157 @@
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Current FME version: FME 2025.2.1.0 (20251202 - Build 25815 - WIN64)
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|System Time: 20260123170526 UTC
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|FME_HOME is 'E:\FME\'
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|FME license: FME Student Edition (node locked-crc)
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Serial Number: UDRJFWAWAC199M8KG3WJ
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Machine host name is: LAPTOP-E5FNAUFQ
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|OS Locale Name     : pl_PL
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|OS Locale Encoding : windows-1252
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|FME API version: '4.0 20250912'
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'E:\DeadByDaylight\Datagrip\DataGrip 2025.2.4\projects\CW12/'
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'shapefile_csv22none.fmw'
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2025.2.1.0'
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Operating System: Microsoft Windows 10 Home 64-bitowy (Build 19045)
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|FME Platform: WIN64
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|System Status: 14.74 GB of disk space available in the FME temporary folder (C:\Users\szyme\AppData\Local\Temp\wbrun_1769118194813_18780\fmetmp_12)
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|System Status: 15.84 GB of physical memory available
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|System Status: 63.36 GB of virtual memory available
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|START - ProcessID: 21112, peak process memory usage: 64604 kB, current process memory usage: 48036 kB
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `E:\FME\fme.exe' `E:\DeadByDaylight\Datagrip\DataGrip 2025.2.4\projects\CW12\wb-xlate-1769187924683_18780' `--FME_LAUNCH_VIEWER_APP' `WORKBENCH' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `51448' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `51086'
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\szyme\AppData\Roaming\Safe Software\FME\'
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Shared folders for formats are : E:\FME\datasources;C:\Users\szyme\OneDrive\Dokumenty\FME\Formats
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Shared folders for transformers are : C:\Users\szyme\AppData\Roaming\Safe Software\FME\Packages\25815-win64\transformers;E:\FME\transformers;C:\Users\szyme\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\szyme\OneDrive\Dokumenty\FME\CoordinateSystems
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\szyme\OneDrive\Dokumenty\FME\CoordinateSystemExceptions
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\szyme\OneDrive\Dokumenty\FME\CoordinateSystemGridOverrides
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\szyme\OneDrive\Dokumenty\FME\CsmapTransformationExceptions
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\szyme\OneDrive\Dokumenty\FME\TransformerCategories
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `E:\DeadByDaylight\Datagrip\DataGrip 2025.2.4\projects\CW12'
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\szyme\AppData\Local\Temp\wbrun_1769118194813_18780\fmetmp_12', set from environment variable `FME_TEMP'
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|FME Configuration: Cache folder is 'C:\Users\szyme\AppData\Local\Temp'
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `E:\FME\'
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 47.52 GB
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 35.64 GB
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Creating writer for format: 
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Creating reader for format: 
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Using MultiWriter with keyword `PRIMARY_DEST' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2026-01-23 18:05:26|   0.0|  0.0|INFORM|Emptying factory pipeline
+2026-01-23 18:05:26|   0.0|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2026-01-23 18:05:26|   0.0|  0.0|STATS |Unwanted Router Input Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2026-01-23 18:05:26|   0.0|  0.0|STATS |T2019_KAR_POI_TABLE_SHAPEFILE_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2026-01-23 18:05:26|   0.0|  0.0|STATS |T2019_KAR_STREET_NODE_SHAPEFILE_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2026-01-23 18:05:26|   0.0|  0.0|STATS |T2019_KAR_STREETS_SHAPEFILE_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2026-01-23 18:05:26|   0.0|  0.0|STATS |points_CSV2_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2026-01-23 18:05:26|   0.2|  0.2|STATS |Restoring 1 feature(s) from FME feature store file `C:\Users\szyme\AppData\Local\Temp\wb-cache--sRtoLW\Main_LengthCalculator_3 -1 58 fo 0 OUTPUT  0  ea2506b1e43a7112030ef438421ab090c0b3cb94.ffs'
+2026-01-23 18:05:26|   0.2|  0.0|STATS |Restoring 1 feature(s) from FME feature store file `C:\Users\szyme\AppData\Local\Temp\wb-cache--sRtoLW\Main_LengthCalculator_2 -1 56 fo 0 OUTPUT  0  d24637605bdc8c5bf05c900cf2580bc33da8d3e8.ffs'
+2026-01-23 18:05:26|   0.2|  0.0|STATS |Restoring 39 feature(s) from FME feature store file `C:\Users\szyme\AppData\Local\Temp\wb-cache--sRtoLW\Main_SpatialFilter -1 36 fo 0 PASSED  0  e04428e23de9018a18dda59e057166b2389b990e.ffs'
+2026-01-23 18:05:26|   0.2|  0.0|STATS |Restoring 56 feature(s) from FME feature store file `C:\Users\szyme\AppData\Local\Temp\wb-cache--sRtoLW\Main_SpatialFilter_2 -1 37 fo 0 PASSED  0  2b4aa611f1adb64e383260da6310e885398ae7f7.ffs'
+2026-01-23 18:05:26|   0.2|  0.0|INFORM|Creating writer for format: GeoJSON (Geographic JavaScript Object Notation)
+2026-01-23 18:05:26|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `GEOJSON'
+2026-01-23 18:05:26|   0.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2026-01-23 18:05:26|   0.2|  0.0|INFORM|Writer `GEOJSON_1' of type `GEOJSON' using group definition keyword `GEOJSON_1_DEF'
+2026-01-23 18:05:26|   0.2|  0.0|INFORM|GeoJSON Writer: All features not in WGS84 will be reprojected to WGS84
+2026-01-23 18:05:26|   0.2|  0.0|INFORM|GEOJSON Writer: Opening the GEOJSON writer with destination dataset 'E:\DeadByDaylight\Datagrip\DataGrip 2025.2.4\projects\CW12\shortest.json'
+2026-01-23 18:05:26|   0.2|  0.0|INFORM|FME Configuration: Destination coordinate system set to input coordinate system `DHDN.Berlin/Cassini'
+2026-01-23 18:05:26|   0.5|  0.3|INFORM|FME Configuration: Using FME Reprojection Engine
+2026-01-23 18:05:26|   0.5|  0.0|INFORM|CS-MAP Reprojector: Transformation will be automatically selected for 'DHDN.Berlin/Cassini' -> 'LL84', and is not guaranteed to remain the same in future releases of FME
+2026-01-23 18:05:26|   0.5|  0.0|INFORM|Reprojector: Using transformation `DHDN_to_ETRS89/01_8_ntv2_BeTA2007_FME,Forward(Grid File Interpolation,EPSG:15948)' when reprojecting from DHDN.Berlin/Cassini to LL84
+2026-01-23 18:05:26|   0.5|  0.0|INFORM|Reprojector:`DHDN_to_ETRS89/01_8_ntv2_BeTA2007_FME,Forward(Grid File Interpolation,EPSG:15948)' will use the following grid shift files:
+2026-01-23 18:05:26|   0.5|  0.0|INFORM|Reprojector:     E:\FME\Reproject\EsriPEGridData\ntv2\germany\BeTA2007.gsb
+2026-01-23 18:05:26|   0.5|  0.0|INFORM|Reprojector: If a point is outside the usable range of 'DHDN_to_ETRS89/01_8_ntv2_BeTA2007_FME' the following fallback transformation will be used: 'DHDN_to_WGS84,Forward(Seven Parameter,EPSG:1673)'
+2026-01-23 18:05:26|   0.5|  0.0|INFORM|Reprojector: Using transformation `ETRS89/01_to_WGS84,Forward(Geocentric)' when reprojecting from DHDN.Berlin/Cassini to LL84
+2026-01-23 18:05:26|   0.5|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 97 input feature(s), wrote 97 output feature(s): 0 matched merge filters, 97 were routed to output, 0 could not be routed.
+2026-01-23 18:05:26|   0.5|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2026-01-23 18:05:26|   0.5|  0.0|INFORM|Closing the GEOJSON writer
+2026-01-23 18:05:26|   0.5|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:26|   0.5|  0.0|INFORM|Feature output statistics for `GEOJSON' writer using keyword `GEOJSON_1':
+2026-01-23 18:05:26|   0.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:26|   0.5|  0.0|STATS |                           Features Written Summary
+2026-01-23 18:05:26|   0.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:26|   0.5|  0.0|STATS |shortest                                                                    39
+2026-01-23 18:05:26|   0.5|  0.0|STATS |==============================================================================
+2026-01-23 18:05:26|   0.5|  0.0|STATS |Total Features Written                                                      39
+2026-01-23 18:05:26|   0.6|  0.1|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:26|   0.6|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Started outputting features
+2026-01-23 18:05:26|   0.6|  0.0|INFORM|Creating writer for format: GeoJSON (Geographic JavaScript Object Notation)
+2026-01-23 18:05:26|   0.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `GEOJSON'
+2026-01-23 18:05:26|   0.6|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2026-01-23 18:05:26|   0.6|  0.0|INFORM|Writer `GEOJSON_2' of type `GEOJSON' using group definition keyword `GEOJSON_2_DEF'
+2026-01-23 18:05:26|   0.6|  0.0|INFORM|GeoJSON Writer: All features not in WGS84 will be reprojected to WGS84
+2026-01-23 18:05:26|   0.6|  0.0|INFORM|GEOJSON Writer: Opening the GEOJSON writer with destination dataset 'E:\DeadByDaylight\Datagrip\DataGrip 2025.2.4\projects\CW12\cheapest.json'
+2026-01-23 18:05:26|   0.6|  0.0|INFORM|FME Configuration: Destination coordinate system set to input coordinate system `DHDN.Berlin/Cassini'
+2026-01-23 18:05:26|   0.6|  0.0|INFORM|Closing the GEOJSON writer
+2026-01-23 18:05:26|   0.6|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:26|   0.6|  0.0|INFORM|Feature output statistics for `GEOJSON' writer using keyword `GEOJSON_2':
+2026-01-23 18:05:26|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:26|   0.6|  0.0|STATS |                           Features Written Summary
+2026-01-23 18:05:26|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:26|   0.6|  0.0|STATS |cheapest                                                                    56
+2026-01-23 18:05:26|   0.6|  0.0|STATS |==============================================================================
+2026-01-23 18:05:26|   0.6|  0.0|STATS |Total Features Written                                                      56
+2026-01-23 18:05:26|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:26|   0.6|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': done writing 56 feature(s) 
+2026-01-23 18:05:26|   0.6|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-23 18:05:26|   0.6|  0.0|INFORM|MULTI_WRITER: multi_writer_id `2': Started outputting features
+2026-01-23 18:05:26|   0.7|  0.1|INFORM|Creating writer for format: Esri Geodatabase (File Geodb Open API)
+2026-01-23 18:05:26|   0.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `FILEGDB'
+2026-01-23 18:05:26|   0.7|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2026-01-23 18:05:26|   0.7|  0.0|INFORM|Writer `FILEGDB_1' of type `FILEGDB' using group definition keyword `FILEGDB_1_DEF'
+2026-01-23 18:05:27|   0.9|  0.2|INFORM|FileGDB Writer: Created table 'cheapest'
+2026-01-23 18:05:27|   0.9|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:27|   0.9|  0.0|INFORM|Feature output statistics for `FILEGDB' writer using keyword `FILEGDB_1':
+2026-01-23 18:05:27|   0.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:27|   0.9|  0.0|STATS |                           Features Written Summary
+2026-01-23 18:05:27|   0.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:27|   0.9|  0.0|STATS |cheapest                                                                     1
+2026-01-23 18:05:27|   0.9|  0.0|STATS |==============================================================================
+2026-01-23 18:05:27|   0.9|  0.0|STATS |Total Features Written                                                       1
+2026-01-23 18:05:27|   0.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:27|   0.9|  0.0|INFORM|MULTI_WRITER: multi_writer_id `2': done writing 1 feature(s) 
+2026-01-23 18:05:27|   0.9|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-23 18:05:27|   0.9|  0.0|INFORM|MULTI_WRITER: multi_writer_id `3': Started outputting features
+2026-01-23 18:05:27|   0.9|  0.0|INFORM|Creating writer for format: Esri Geodatabase (File Geodb Open API)
+2026-01-23 18:05:27|   0.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `FILEGDB'
+2026-01-23 18:05:27|   0.9|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2026-01-23 18:05:27|   0.9|  0.0|INFORM|Writer `FILEGDB_2' of type `FILEGDB' using group definition keyword `FILEGDB_2_DEF'
+2026-01-23 18:05:27|   1.1|  0.2|INFORM|FileGDB Writer: Created table 'shortest'
+2026-01-23 18:05:27|   1.1|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:27|   1.1|  0.0|INFORM|Feature output statistics for `FILEGDB' writer using keyword `FILEGDB_2':
+2026-01-23 18:05:27|   1.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:27|   1.1|  0.0|STATS |                           Features Written Summary
+2026-01-23 18:05:27|   1.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:27|   1.1|  0.0|STATS |shortest                                                                     1
+2026-01-23 18:05:27|   1.1|  0.0|STATS |==============================================================================
+2026-01-23 18:05:27|   1.1|  0.0|STATS |Total Features Written                                                       1
+2026-01-23 18:05:27|   1.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:27|   1.1|  0.0|INFORM|MULTI_WRITER: multi_writer_id `3': done writing 1 feature(s) 
+2026-01-23 18:05:27|   1.1|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-23 18:05:27|   1.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:27|   1.1|  0.0|STATS |                            Features Read Summary
+2026-01-23 18:05:27|   1.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:27|   1.1|  0.0|STATS |==============================================================================
+2026-01-23 18:05:27|   1.1|  0.0|STATS |Total Features Read                                                          0
+2026-01-23 18:05:27|   1.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:27|   1.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:27|   1.1|  0.0|STATS |                           Features Written Summary
+2026-01-23 18:05:27|   1.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:27|   1.1|  0.0|STATS |cheapest                                                                    57
+2026-01-23 18:05:27|   1.1|  0.0|STATS |shortest                                                                    40
+2026-01-23 18:05:27|   1.1|  0.0|STATS |==============================================================================
+2026-01-23 18:05:27|   1.1|  0.0|STATS |Total Features Written                                                      97
+2026-01-23 18:05:27|   1.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2026-01-23 18:05:27|   1.1|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2026-01-23 18:05:27|   1.1|  0.0|WARN  |-~                                                                             ~-
+2026-01-23 18:05:27|   1.1|  0.0|WARN  |-~      Data caches have been recorded at every stage of the translation.      ~-
+2026-01-23 18:05:27|   1.1|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2026-01-23 18:05:27|   1.1|  0.0|WARN  |-~                click the data cache icons next to the ports.                ~-
+2026-01-23 18:05:27|   1.1|  0.0|WARN  |-~                                                                             ~-
+2026-01-23 18:05:27|   1.1|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2026-01-23 18:05:27|   1.1|  0.0|INFORM|Translation was SUCCESSFUL with 7 warning(s) (97 feature(s) output)
+2026-01-23 18:05:27|   1.1|  0.0|INFORM|FME Session Duration: 1.6 seconds. (CPU: 0.5s user, 0.6s system)
+2026-01-23 18:05:27|   1.1|  0.0|INFORM|END - ProcessID: 21112, peak process memory usage: 115452 kB, current process memory usage: 102708 kB

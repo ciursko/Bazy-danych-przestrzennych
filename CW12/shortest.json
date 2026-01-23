@@ -1,0 +1,786 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "shortest",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3960599601, 49.0073913432 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 50605272,
+				"LINK_ID" : 53189377,
+				"TYPE" : "Hotel",
+				"POI_NAME" : "Betzler",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00739",
+				"LON" : "8.39607",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3869498727, 49.0105513531 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1070067170,
+				"LINK_ID" : 78579196,
+				"TYPE" : "Commuter Rail Station",
+				"POI_NAME" : "Stadtbahn Mühlburger Tor",
+				"ST_NAME" : "Kaiserallee",
+				"LAT" : "49.01055",
+				"LON" : "8.38696",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3960599601, 49.0073913432 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1108398605,
+				"LINK_ID" : 53189377,
+				"TYPE" : "Sporting Goods Store",
+				"POI_NAME" : "Fassbender Tennis & Golf",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00739",
+				"LON" : "8.39607",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3944499447, 49.0079513449 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1104117072,
+				"LINK_ID" : 811161236,
+				"TYPE" : "Clothing Store",
+				"POI_NAME" : "Boutique Bombay",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00795",
+				"LON" : "8.39446",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3918799201, 49.0088913477 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1104115629,
+				"LINK_ID" : 53191702,
+				"TYPE" : "Clothing Store",
+				"POI_NAME" : "Hemdenservice Piccobello",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00889",
+				"LON" : "8.39189",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.394269943, 49.0080113451 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1108706028,
+				"LINK_ID" : 811161236,
+				"TYPE" : "Specialty Store",
+				"POI_NAME" : "Red Box Hairstore",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00801",
+				"LON" : "8.39428",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3677396865, 49.0174913742 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 801782356,
+				"LINK_ID" : 53179814,
+				"TYPE" : "Pharmacy",
+				"POI_NAME" : "Drais-Apotheke",
+				"ST_NAME" : "Moltkestraße",
+				"LAT" : "49.01749",
+				"LON" : "8.36775",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3918799201, 49.0088913477 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1108686583,
+				"LINK_ID" : 53191702,
+				"TYPE" : "Specialty Store",
+				"POI_NAME" : "Salon Headline",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00889",
+				"LON" : "8.39189",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3918899202, 49.0088413477 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1108686584,
+				"LINK_ID" : 53191702,
+				"TYPE" : "Specialty Store",
+				"POI_NAME" : "Salon Ruppel",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00884",
+				"LON" : "8.3919",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3918899202, 49.0088413477 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1039210485,
+				"LINK_ID" : 53191702,
+				"TYPE" : "Restaurant",
+				"POI_NAME" : "Central Imbiss",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00884",
+				"LON" : "8.3919",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3951699516, 49.0077013441 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 57540923,
+				"LINK_ID" : 53189358,
+				"TYPE" : "Restaurant",
+				"POI_NAME" : "La Strada-Pasta Pasta",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.0077",
+				"LON" : "8.39518",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3915499169, 49.0089513481 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1193011544,
+				"LINK_ID" : 807858986,
+				"TYPE" : "Restaurant",
+				"POI_NAME" : "Kolo City Pizza & Kebaphaus",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00895",
+				"LON" : "8.39156",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3898799009, 49.0095713499 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 57540924,
+				"LINK_ID" : 807858987,
+				"TYPE" : "Restaurant",
+				"POI_NAME" : "Punjab",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00957",
+				"LON" : "8.38989",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.363719648, 49.0225313788 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1131716845,
+				"LINK_ID" : 999128963,
+				"TYPE" : "Park/Recreation Area",
+				"POI_NAME" : "Tennisclub Karlsruhe-West",
+				"ST_NAME" : "Berliner Straße",
+				"LAT" : "49.02253",
+				"LON" : "8.36373",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3956699564, 49.0075713436 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 50610381,
+				"LINK_ID" : 53191350,
+				"TYPE" : "Parking Garage/House",
+				"POI_NAME" : "Ludwigsplatz",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00757",
+				"LON" : "8.39568",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3937299379, 49.0082413457 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 57562592,
+				"LINK_ID" : 1198329790,
+				"TYPE" : "Parking Garage/House",
+				"POI_NAME" : "Postgalerie",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00824",
+				"LON" : "8.39374",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3930299311, 49.0084513465 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 50610440,
+				"LINK_ID" : 53189275,
+				"TYPE" : "Parking Garage/House",
+				"POI_NAME" : "Parkhaus Stephanplatz",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00845",
+				"LON" : "8.39304",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3906299081, 49.0092713491 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1207963190,
+				"LINK_ID" : 807858986,
+				"TYPE" : "Medical Service",
+				"POI_NAME" : "Zahnarztpraxis Michael Weiland",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00927",
+				"LON" : "8.39064",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3949899499, 49.0077913443 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1210891400,
+				"LINK_ID" : 53189358,
+				"TYPE" : "Medical Service",
+				"POI_NAME" : "Leokadia Seidler",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00779",
+				"LON" : "8.395",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3920599218, 49.0087813475 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1211309940,
+				"LINK_ID" : 53191702,
+				"TYPE" : "Medical Service",
+				"POI_NAME" : "Dipl.Psych. Uschi Timmwinkmann",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00878",
+				"LON" : "8.39207",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3920599218, 49.0087813475 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1211310597,
+				"LINK_ID" : 53191702,
+				"TYPE" : "Medical Service",
+				"POI_NAME" : "Dr. Dipl.Psych. Ingeborg Kraus",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00878",
+				"LON" : "8.39207",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3906299081, 49.0092713491 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1211262263,
+				"LINK_ID" : 807858986,
+				"TYPE" : "Medical Service",
+				"POI_NAME" : "Dr. Gerd Schaufelberger",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00927",
+				"LON" : "8.39064",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.393019931, 49.0084413465 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1210921526,
+				"LINK_ID" : 53189275,
+				"TYPE" : "Medical Service",
+				"POI_NAME" : "Dr. med. Ulrich Janosovits",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00844",
+				"LON" : "8.39303",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3942599429, 49.0080113451 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1210918839,
+				"LINK_ID" : 811161236,
+				"TYPE" : "Medical Service",
+				"POI_NAME" : "Dr. Phil. Christian Kürschner",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00801",
+				"LON" : "8.39427",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3938899394, 49.0081413455 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1211385377,
+				"LINK_ID" : 1198329789,
+				"TYPE" : "Medical Service",
+				"POI_NAME" : "Dipl.Psych. Manfred Schmitt",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00814",
+				"LON" : "8.3939",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3878798817, 49.0102213521 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1210916977,
+				"LINK_ID" : 53189085,
+				"TYPE" : "Medical Service",
+				"POI_NAME" : "Dr. med. Michaela Lorenz",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.01022",
+				"LON" : "8.38789",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.393019931, 49.0084413465 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1210917003,
+				"LINK_ID" : 53189275,
+				"TYPE" : "Medical Service",
+				"POI_NAME" : "Dr. med. Jörg Decker",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00844",
+				"LON" : "8.39303",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3878798817, 49.0102213521 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1210917581,
+				"LINK_ID" : 53189085,
+				"TYPE" : "Medical Service",
+				"POI_NAME" : "Yu Jun Huang",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.01022",
+				"LON" : "8.38789",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3878798817, 49.0102213521 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1210917473,
+				"LINK_ID" : 53189085,
+				"TYPE" : "Medical Service",
+				"POI_NAME" : "Dr. Medic. Manuelanarcisa Ghidersa",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.01022",
+				"LON" : "8.38789",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3938899394, 49.0081413455 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1210918174,
+				"LINK_ID" : 1198329789,
+				"TYPE" : "Medical Service",
+				"POI_NAME" : "Peterpaul Tarne",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00814",
+				"LON" : "8.3939",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3949899499, 49.0077913443 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1210918219,
+				"LINK_ID" : 53189358,
+				"TYPE" : "Medical Service",
+				"POI_NAME" : "Dr. Andrea Raufeisen",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00779",
+				"LON" : "8.395",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3942599429, 49.0080113451 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1210917908,
+				"LINK_ID" : 811161236,
+				"TYPE" : "Medical Service",
+				"POI_NAME" : "Dr. med. Christine Jung",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00801",
+				"LON" : "8.39427",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.394269943, 49.0080113451 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1017154916,
+				"LINK_ID" : 811161236,
+				"TYPE" : "ATM",
+				"POI_NAME" : "Isbank",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00801",
+				"LON" : "8.39428",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.394269943, 49.0080113451 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1017154917,
+				"LINK_ID" : 811161236,
+				"TYPE" : "Bank",
+				"POI_NAME" : "Isbank",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00801",
+				"LON" : "8.39428",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3915399169, 49.0090013481 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1148908265,
+				"LINK_ID" : 807858986,
+				"TYPE" : "Nightlife",
+				"POI_NAME" : "Brasil",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.009",
+				"LON" : "8.39155",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.390929911, 49.0091713487 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 57561520,
+				"LINK_ID" : 807858986,
+				"TYPE" : "Nightlife",
+				"POI_NAME" : "Casino Royal Spielcenter",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00917",
+				"LON" : "8.39094",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3657796675, 49.0189713764 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 898521667,
+				"LINK_ID" : 53188572,
+				"TYPE" : "School",
+				"POI_NAME" : "Erich Kästner Schule",
+				"ST_NAME" : "Moltkestraße",
+				"LAT" : "49.01897",
+				"LON" : "8.36579",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3869398726, 49.0105913531 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 1039815347,
+				"LINK_ID" : 78579196,
+				"TYPE" : "Place of Worship",
+				"POI_NAME" : "Christuskirche",
+				"ST_NAME" : "Kaiserallee",
+				"LAT" : "49.01059",
+				"LON" : "8.38695",
+				"_predicate" : "INTERSECTS"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3910199119, 49.0091413486 ]
+			},
+			"properties" : {
+				"col0" : 8.360930442810059,
+				"col1" : 49.03173828125,
+				"_total_cost" : "4624.099089844143",
+				"POI_ID" : 800841281,
+				"LINK_ID" : 807858986,
+				"TYPE" : "Petrol/Gasoline Station",
+				"POI_NAME" : "ARAL",
+				"ST_NAME" : "Amalienstraße",
+				"LAT" : "49.00914",
+				"LON" : "8.39103",
+				"_predicate" : "INTERSECTS"
+			}
+		}
+	]
+}
